@@ -1,0 +1,125 @@
+@font-face {
+    font-family: GoodTimes;
+    src: url(./Good\ Times\ 400.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.absol{
+    position: absolute;
+}
+
+.main {
+
+    font-family: GoodTimes, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(104, 104, 104);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    color: #fff;
+    width: 350px;
+    height: 84px;
+    border-radius: 15px;
+    background: rgb(95, 233, 218);
+    background: linear-gradient(90deg, rgba(95, 233, 218, 1) 23%, rgba(173, 100, 233, 1) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+#input{
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    border-radius: 20px;
+    left: 22px;
+    top: 22px;
+    text-align: centre;
+    font-size: 20px;
+    font-family: GoodTimes;
+    text-align: center;
+
+}
+#city{
+    top: 105px;
+    left: 22px;
+    width: 300px;
+    height: 38px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+} 
+
+#temp{
+    top: 148px;
+    left: 134px;
+}
+#pressure{
+    top: 301px;
+    left: 39px;
+}
+#humidity{
+    top: 301px;
+    left: 256px;
+}
+
+#Name1{
+    top: 320px;
+    left: 23px;
+}
+#Name2{
+    top: 320px;
+    left: 219px;
+}
+
+.image{
+    width: 98px;
+    top: 189px;
+    left: 121px;
+    box-shadow: 2px 2px 95px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
