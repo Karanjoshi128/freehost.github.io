@@ -2,6 +2,11 @@
     font-family: GoodTimes;
     src: url(./Good\ Times\ 400.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Poppins&family=Quicksand:wght@500&family=Roboto&display=swap');
+
+
 
 * {
     margin: 0;
@@ -14,7 +19,8 @@
 
 .main {
 
-    font-family: GoodTimes, sans-serif;
+    /* font-family: 'Dosis'; */
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     background-color: rgb(104, 104, 104);
     width: 100%;
@@ -44,7 +50,7 @@
     top: 22px;
     text-align: centre;
     font-size: 20px;
-    font-family: GoodTimes;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 
 }
@@ -62,7 +68,7 @@
 
 #temp{
     top: 148px;
-    left: 134px;
+    left: 150px
 }
 #pressure{
     top: 301px;
