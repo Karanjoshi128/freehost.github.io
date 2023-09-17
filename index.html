@@ -4,25 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Karan's Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/feather logo.png" type="image/x-icon">
 </head>
 
 <body>
-    <div class="main">
-        <div class="card">
-            <input id="input" type="text" placeholder="Enter a city">
-            <div id="city" class="absol">Empty</div>
-            <h2 id="temp" class="absol">0.0°C</h2>
-            <img src="Images/main.png" alt="" class="absol image">
-            <h3 id="pressure" class="absol">0 KM/H</h3>
-            <h3 id="Name1" class="absol">WIND-SPEED</h3>
-            <h3 id="humidity" class="absol">0 %</h3>
-            <h3 id="Name2" class="absol">HUMIDITY</h3>
-        </div>
-    </div>
+    <header id="Home">
+        <nav>
+            <div class="name">
+                <img src="Images/feather logo.png" alt="">
+                <h2>PORTFOLIO</h2>
+            </div>
+            <ul class="first">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="info">
+            <img src="Images/Profile-pic.jpg" class="profile-pic" alt="">
 
-    <script src="script.js"></script>
+            <div class="text-info">
+                <p>Hello, I'm</p>
+                <h1>KARAN JOSHI</h1>
+                <h2>Frontend Developer</h2>
+                <div class="btn1">
+                    <button>Download CV</button>
+                    <button id="github">Contact Info</button>
+                </div>
+                <div class="btn2">
+                    <img src="Images/linkedin.png" alt=""
+                        onclick="location.href='https://www.linkedin.com/in/karan-joshi-a70740271/';">
+                    <img src="Images/github.png" alt="" onclick="location.href='https://github.com/Karanjoshi128';">
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <section id="About">
+        <h1>About Me</h1>
+        <div class="info2">
+            <img src="Images/css3.png" alt="">
+            <div class="text-info2">
+                <div class="column">
+                    <div class="edu1">
+                        <img class="imgs1" src="Images/experience.png" alt="" style="width:3rem;">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="edu2">
+                        <img class="imgs2" src="Images/education.png" alt="" style="width:3rem;">
+                        <h2>Education</h2>
+                    </div>
+                </div>
+                <div class="edu11">
+                    <li id="one">HTML 5</li>
+                    <li id="two">CSS 3</li>
+                    <li id="three">JAVASCRIPT</li>
+                </div>
+                <div class="edu12">
+                    <li class="li2" id="four">2nd Year, B.Tech Student At ABESIT</li>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum vero autem, inventore quos cumque
+                    omnis nobis sint. Eligendi inventore necessitatibus omnis similique quaerat accusantium iusto
+                    corporis, facilis consectetur dolores aliquid velit fugit culpa maiores dignissimos enim quos
+                    deserunt nobis quidem.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="Projects">
+        <h1>Projects</h1>
+        <div class="work">
+            <div class="card firstcard" onclick="location.href='';">
+                <img src="Images/tictactoepngg.png" alt="">
+                <p>Tic-Tac-Toe</p>
+            </div>
+            <div class="card secondcard" onclick="location.href='';">
+                <img src="Images/calculator.png" alt="">
+                <p>Calculator</p>
+            </div>
+            <div class="card thirdcard" onclick="location.href='';">
+                <img src="Images/qr code.png" alt="">
+                <p>QR-Code Generator</p>
+            </div>
+            <div class="card fourthcard" onclick="location.href='https://karanjoshi128.github.io/freehost.github.io/';">
+                <img src="Images/weather.jpg" alt="">
+                <p>Weather-App</p>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="abbr"><span class="spin2">KARAN'S PORTFOLIO
+                PROJECT</span>
+                <img src="Images/feather logo.png" alt="">
+            <ul class="order1 order">
+                <li>Home</li>
+                <li>About</li>
+                <li>Project</li>
+                <li>Contact</li>
+            </ul>
+            <ul class="order2 order">
+                <li>Home</li>
+                <li>About</li>
+                <li>Project</li>
+                <li>Contact</li>
+            </ul>
+            <ul class="order3 order">
+                <li>Home</li>
+                <li>About</li>
+                <li>Project</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <span class="spin">
+            Copyright &#16; Karansportfolio.com | All Rights Reserved
+        </span>
+
+    </section>
+
+
+
 </body>
+<script src="script.js"></script>
 
 </html>
