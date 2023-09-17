@@ -211,7 +211,7 @@ div.edu1 {
     padding: 1.5rem;
     position: relative;
     cursor: pointer;
-    transition: ease 0.1s;
+    /* transition: ease 0.1s; */
 }
 
 
@@ -225,7 +225,7 @@ div.edu2 {
     padding: 1.5rem;
     position: relative;
     cursor: pointer;
-    transition: ease 0.1s;
+    /* transition: ease 0.1s; */
 
 }
 
