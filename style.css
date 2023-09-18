@@ -232,6 +232,9 @@ div.edu2 {
 img.imgs1 {
     height: 3rem;
 }
+span.auto-type{
+    color: rgb(81, 81, 81);
+}
 
 div.edu11 {
     position: absolute;
