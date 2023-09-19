@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
     /* background-color: rgb(0, 105, 105); */
 }
 html{
@@ -246,8 +247,8 @@ div.edu11 {
     text-align: center;
     padding: 1.5rem;
     cursor: pointer;
-    left: 544px;
-    top: 230px;
+    left: 0px;
+    top: 0px;
     z-index: -1;
 }
 
@@ -261,8 +262,8 @@ div.edu12 {
     /* text-align: center; */
     padding: 1.5rem;
     cursor: pointer;
-    left: 858px;
-    top: 230px;
+    left: 0px;
+    top: 0px;
     z-index: -1;
 }
 
@@ -277,15 +278,18 @@ div.edu12 li {
 }
 
 div.edu11 li#one {
-    margin-left: -115px;
+    width: 131px;
+    margin-left: -15px;
 }
 
 div.edu11 li#two {
-    margin-left: -127px;
+    width: 110px;
+    margin-left: -10px;
 }
 
 div.edu11 li#three {
-    margin-left: -73px;
+    width: 155px;
+    margin-left: -6px;
 }
 
 section#Projects {
