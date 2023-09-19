@@ -4,7 +4,8 @@
     /* box-sizing: border-box; */
     /* background-color: rgb(0, 105, 105); */
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -19,8 +20,11 @@ body {
 }
 
 header {
-    width: 98vw;
-    height: 100vh;
+    /* width: 98vw;
+    height: 100vh; */
+    /* background-color: crimson; */
+    width: 1349px;
+    height: 689px;
 }
 
 nav {
@@ -45,10 +49,12 @@ div.name {
     height: 88px;
     width: 286px;
 }
-div.name img{
+
+div.name img {
     width: 8rem;
     /* margin-right: 170px; */
 }
+
 div.name h2 {
     /* position: absolute;
     left: 100px; */
@@ -85,10 +91,12 @@ ul li a:hover {
     gap: 5rem;
     padding-top: 63px;
 }
-hr{
+
+hr {
     width: 1077px;
     margin: auto;
 }
+
 .profile-pic {
     width: 24rem;
     border-radius: 50%;
@@ -149,14 +157,16 @@ div.btn1 button {
 }
 
 section#About {
-    width: 98vw;
-    height: 100vh;
+    /* width: 98vw;
+    height: 100vh; */
+    /* background-color: rgb(48, 2, 11); */
+    width: 1349px;
+    height: 689px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-
 }
 
 section#About h1 {
@@ -166,7 +176,6 @@ section#About h1 {
     height: 72px;
     position: absolute;
     top: 59px;
-
 }
 
 section#About div.info2 img {
@@ -233,7 +242,8 @@ div.edu2 {
 img.imgs1 {
     height: 3rem;
 }
-span.auto-type{
+
+span.auto-type {
     color: rgb(81, 81, 81);
 }
 
@@ -293,15 +303,19 @@ div.edu11 li#three {
 }
 
 section#Projects {
-    width: 98vw;
-    height: 100vh;
+    /* width: 98vw;
+    height: 100vh; */
+    /* background-color: rgb(133, 45, 63); */
+    width: 1349px;
+    height: 689px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-section#Projects h1{
+
+section#Projects h1 {
     font-size: 2.6rem;
     text-align: center;
     width: 1116px;
@@ -309,7 +323,8 @@ section#Projects h1{
     position: absolute;
     top: 59px;
 }
-section#Projects div.work{
+
+section#Projects div.work {
     width: 86vw;
     height: 67vh;
     /* background-color: rgb(139, 137, 137); */
@@ -319,6 +334,7 @@ section#Projects div.work{
     border-radius: 1.5rem;
     box-shadow: 10px 10px 15px #cbc8c8;
 }
+
 section#Projects div.card {
     width: 17vw;
     height: 47vh;
@@ -327,20 +343,23 @@ section#Projects div.card {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;    
+    gap: 1rem;
     border-radius: 0.7rem;
     cursor: pointer;
     /* box-shadow: 5px 5px 10px #c1c1 */
     box-shadow: -10px -10px 15px #cbc8c8;
 }
-section#Projects div.secondcard img{
+
+section#Projects div.secondcard img {
     border-radius: 7rem !important;
 }
+
 section#Projects div.card img {
     width: 12rem;
     border-radius: 3rem;
 }
-section#Projects div.thirdcard p{
+
+section#Projects div.thirdcard p {
     display: grid;
     place-items: center;
     padding-top: 2px !important;
@@ -360,41 +379,225 @@ section#Projects div.card p {
     color: white;
 }
 
-section#Contact{
-    width: 100%;
-    height: 37vh;
+section#Contact {
+    /* width: 100%;*/
+    height: 253px;
+    width: 1349px;
     background-color: #7d7d7d;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-section#Contact div.abbr{
+
+section#Contact div.abbr {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-section#Contact div.abbr ul.order{
+
+section#Contact div.abbr ul.order {
     height: 175px;
     width: 7%;
-    height: 34vh;  
+    height: 34vh;
 }
-section#Contact div.abbr ul.order li{
+
+section#Contact div.abbr ul.order li {
     padding: 12px 47px 12px 15px;
     /* margin-top: 22px; */
     font-size: 18px;
 }
-span.spin2{
+
+span.spin2 {
     margin-top: -148px;
     font-size: 18px;
 }
-span.spin{
+
+span.spin {
     width: 100%;
     text-align: center;
     display: block;
 }
-div.abbr img{
+
+div.abbr img {
     position: absolute;
     width: 20rem;
     left: 131px;
     top: 12px;
     opacity: 5;
+}
+
+@media screen and (max-width : 1024px) {
+
+    header {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: crimson; */
+        width: 1349px;
+        height: 791px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        padding-top: 63px;
+    }
+
+    section#About {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: rgb(48, 2, 11); */
+        width: 1349px;
+        height: 791px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    section#Projects {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: rgb(133, 45, 63); */
+        width: 1349px;
+        height: 791px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width : 1024px) and (min-width: 767px) {
+    header {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: crimson; */
+        width: 1349px;
+        height: 1057px;
+    }
+
+    section#About {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: rgb(48, 2, 11); */
+        width: 1349px;
+        height: 1057px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    section#Projects {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: rgb(133, 45, 63); */
+        width: 1349px;
+        height: 1057px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
+
+@media screen and (max-width : 767px) and (min-width: 480px) {
+    header {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: crimson; */
+        width: 1349px;
+        height: 1689px;
+    }
+
+    section#About {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: rgb(48, 2, 11); */
+        width: 1349px;
+        height: 1689px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    section#Projects {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: rgb(133, 45, 63); */
+        width: 1349px;
+        height: 1689px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    section#Contact {
+        height: 397px;
+        width: 1349px;
+        /* background-color: #7d7d7d; */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: crimson; */
+        width: 1349px;
+        height: 1689px;
+    }
+
+    section#About {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: rgb(48, 2, 11); */
+        width: 1349px;
+        height: 1689px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    section#Projects {
+        /* width: 98vw;
+        height: 100vh; */
+        /* background-color: rgb(133, 45, 63); */
+        width: 1349px;
+        height: 1689px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    section#Contact {
+        height: 397px;
+        width: 1349px;
+        /* background-color: #7d7d7d; */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 }
