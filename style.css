@@ -433,50 +433,51 @@ div.abbr img {
     opacity: 5;
 }
 
-@media screen and (max-width : 1024px) {
-
-    header {
-        /* width: 98vw;
-        height: 100vh; */
-        /* background-color: crimson; */
-        width: 1349px;
-        height: 791px;
+@media screen and (max-width : 1350px) and (min-width: 1025px) {
+    section#Projects div.card img {
+        width: 9rem;
+        border-radius: 3rem;
     }
 
-    .info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8rem;
-        padding-top: 63px;
+    section#Projects div.card p {
+        font-family: 'Roboto', sans-serif;
+        border-radius: 22px;
+        width: 128px;
+        height: 28px;
+        text-align: center;
+        padding-top: 15px;
+        font-size: large;
+        border: 2px solid black;
+        background: rgb(53, 53, 53);
+        color: white;
     }
 
-    section#About {
-        /* width: 98vw;
-        height: 100vh; */
-        /* background-color: rgb(48, 2, 11); */
-        width: 1349px;
-        height: 791px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-
-    section#Projects {
-        /* width: 98vw;
-        height: 100vh; */
-        /* background-color: rgb(133, 45, 63); */
-        width: 1349px;
-        height: 791px;
+    section#Projects div.card {
+        width: 15vw;
+        height: 35vh;
+        border: 2px solid rgb(237 237 237);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
+        gap: 1rem;
+        border-radius: 0.7rem;
+        cursor: pointer;
+        /* box-shadow: 5px 5px 10px #c1c1; */
+        box-shadow: -10px -10px 15px #cbc8c8;
     }
 
+    section#Projects div.work {
+        width: 87vw;
+        height: 57vh;
+        /* background-color: rgb(139, 137, 137); */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 1.5rem;
+        box-shadow: 10px 10px 15px #cbc8c8;
+    }
 }
 
 @media screen and (max-width : 1024px) and (min-width: 767px) {
@@ -488,6 +489,11 @@ div.abbr img {
         height: 1057px;
     }
 
+    hr {
+        width: 1077px;
+        margin-left: 149px;
+    }
+
     section#About {
         /* width: 98vw;
         height: 100vh; */
@@ -513,9 +519,35 @@ div.abbr img {
         align-items: center;
         position: relative;
     }
+
+    section#Projects div.work {
+        width: 112vw;
+        height: 62vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 1.5rem;
+        box-shadow: 10px 10px 15px #cbc8c8;
+    }
+
+    section#Projects div.card {
+        width: 24vw;
+        height: 43vh;
+        border: 2px solid rgb(237 237 237);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 0.7rem;
+        cursor: pointer;
+        /* box-shadow: 5px 5px 10px #c1c1; */
+        box-shadow: -10px -10px 15px #cbc8c8;
+    }
 }
 
-@media screen and (max-width : 767px) and (min-width: 393px) {
+@media screen and (max-width : 766px) and (min-width: 481px) {
     header {
         /* width: 98vw;
         height: 100vh; */
@@ -558,6 +590,37 @@ div.abbr img {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    section#Projects div.work {
+        width: 151vw;
+        height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 1.5rem;
+        box-shadow: 10px 10px 15px #cbc8c8;
+    }
+
+    hr {
+        width: 1077px;
+        margin-left: 142px;
+    }
+
+    section#Projects div.card {
+        width: 32vw;
+        height: 47vh;
+        border: 2px solid rgb(237 237 237);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 0.7rem;
+        cursor: pointer;
+        /* box-shadow: 5px 5px 10px #c1c1; */
+        box-shadow: -10px -10px 15px #cbc8c8;
     }
 }
 
@@ -614,11 +677,9 @@ div.abbr img {
     }
 
     section#Projects {
-        /* width: 98vw;
-        height: 100vh; */
         /* background-color: rgb(133, 45, 63); */
         width: 1349px;
-        height: 1689px;
+        height: 2425px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -721,7 +782,6 @@ div.abbr img {
         margin-left: 124px;
         margin-right: 127px;
         margin-bottom: 127px;
-        margin-top: 258px;
         height: 79vh;
         border: 2px solid rgb(237 237 237);
         display: flex;
@@ -819,7 +879,7 @@ div.abbr img {
         width: 1008px;
         margin-top: 22px;
         color: rgb(85, 85, 85);
-        font-size: large;
+        font-size: 34px;
     }
 
     section#About h2 {
@@ -834,4 +894,57 @@ div.abbr img {
         font-size: 31px;
     }
 
+    div.abbr img {
+        position: absolute;
+        width: 20rem;
+        left: 241px;
+        top: 79px;
+        opacity: 5;
+    }
+
+    div.firstcard {
+        margin-top: 258px !important;
+    }
+
+    div.secondcard {
+        margin-top: 258px !important;
+    }
+
+    div.thirdcard {
+        margin-top: 786px !important;
+    }
+
+    div.fourthcard {
+        margin-top: 786px !important;
+    }
+
+    span.auto-type {
+        color: rgb(81, 81, 81);
+        font-size: 63px;
+    }
+
+    div.text-info p {
+        font-size: 50px;
+    }
+
+    div.text-info h1 {
+        margin: 6px;
+        font-size: 88px;
+    }
+
+    .btn2 img {
+        width: 6.5rem;
+        margin: 6px;
+        cursor: pointer;
+    }
+
+    div.btn1 button {
+        border-radius: 2rem;
+        width: 295px;
+        height: 70px;
+        background: none;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 22px;
+    }
 }
