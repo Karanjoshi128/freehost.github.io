@@ -564,7 +564,7 @@ div.abbr img {
 
 
 
-@media screen and (max-width: 393px) and (max-height: 602px) {
+@media screen and (max-width: 480px) {
     header {
         /* width: 98vw;
         height: 100vh; */
