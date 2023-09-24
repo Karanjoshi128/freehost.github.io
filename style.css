@@ -329,6 +329,7 @@ section#Projects div.work {
     height: 67vh;
     /* background-color: rgb(139, 137, 137); */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 1.5rem;
