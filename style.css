@@ -240,9 +240,10 @@ div.edu2 {
 }
 
 img.imgs1 {
-    width: 4rem !important ; 
-    height: 4rem !important ;
+    width: 4rem !important;
+    height: 4rem !important;
 }
+
 img.imgs2 {
     width: 4rem !important;
     height: 4rem !important;
@@ -564,7 +565,7 @@ div.abbr img {
 
 
 
-@media screen and (max-width: 393px) and (max-height: 602px) {
+@media screen and (max-width: 480px) {
     header {
         /* width: 98vw;
         height: 100vh; */
@@ -580,6 +581,7 @@ div.abbr img {
         align-items: center;
         gap: 8rem;
         padding-top: 63px;
+        margin-left: 68px;
     }
 
     section#About {
@@ -600,9 +602,9 @@ div.abbr img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        grid-area: 3rem;
         gap: 4rem;
         margin-top: 3.2rem;
+        margin-left: 131px;
     }
 
     nav {
@@ -709,8 +711,7 @@ div.abbr img {
 
     section#Contact {
         height: 397px;
-        width: 1349px;
-        /* background-color: #7d7d7d; */
+        width: 1401px;
         color: white;
         display: flex;
         flex-direction: column;
@@ -764,7 +765,7 @@ div.abbr img {
         position: relative;
         cursor: pointer;
     }
-    
+
     div.edu11 {
         position: absolute;
         border: 0.1rem solid black;
@@ -791,7 +792,7 @@ div.abbr img {
         position: relative;
         cursor: pointer;
     }
-    
+
     div.edu12 {
         position: absolute;
         border: 0.1rem solid black;
@@ -805,22 +806,34 @@ div.abbr img {
         top: 0px;
         z-index: -1;
     }
+
     img.imgs1 {
-        width: 9rem !important ; 
-        height: 9rem !important ;
+        width: 9rem !important;
+        height: 9rem !important;
     }
+
     img.imgs2 {
         width: 9rem !important;
         height: 9rem !important;
     }
+
     div.text-info2 p {
         width: 1008px;
         margin-top: 22px;
         color: rgb(85, 85, 85);
         font-size: large;
     }
-    section#About h2{
+
+    section#About h2 {
         font-size: 45px;
 
     }
+
+    span.spin {
+        width: 100%;
+        text-align: center;
+        display: block;
+        font-size: 31px;
+    }
+
 }
