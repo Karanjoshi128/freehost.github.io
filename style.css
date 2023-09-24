@@ -240,7 +240,12 @@ div.edu2 {
 }
 
 img.imgs1 {
-    height: 3rem;
+    width: 4rem !important ; 
+    height: 4rem !important ;
+}
+img.imgs2 {
+    width: 4rem !important;
+    height: 4rem !important;
 }
 
 span.auto-type {
@@ -329,6 +334,7 @@ section#Projects div.work {
     height: 67vh;
     /* background-color: rgb(139, 137, 137); */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 1.5rem;
@@ -510,7 +516,7 @@ div.abbr img {
     }
 }
 
-@media screen and (max-width : 767px) and (min-width: 480px) {
+@media screen and (max-width : 767px) and (min-width: 393px) {
     header {
         /* width: 98vw;
         height: 100vh; */
@@ -556,13 +562,24 @@ div.abbr img {
     }
 }
 
-@media screen and (max-width: 480px) {
+
+
+@media screen and (max-width: 393px) and (max-height: 602px) {
     header {
         /* width: 98vw;
         height: 100vh; */
         /* background-color: crimson; */
         width: 1349px;
         height: 1689px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        padding-top: 63px;
     }
 
     section#About {
@@ -578,6 +595,24 @@ div.abbr img {
         position: relative;
     }
 
+    div.info2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-area: 3rem;
+        gap: 4rem;
+        margin-top: 3.2rem;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        padding-top: 100px;
+    }
+
     section#Projects {
         /* width: 98vw;
         height: 100vh; */
@@ -591,6 +626,87 @@ div.abbr img {
         position: relative;
     }
 
+    section#Projects h1 {
+        font-size: 5.6rem;
+        text-align: center;
+        width: 1116px;
+        height: 72px;
+        position: absolute;
+        top: 59px;
+    }
+
+    .profile-pic {
+        width: 49rem;
+        border-radius: 50%;
+    }
+
+    section#About div.info2 img {
+        width: 499px;
+        border-radius: 4rem;
+    }
+
+    section#Projects div.work {
+        width: 86vw;
+        height: 67vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: revert;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 1.5rem;
+        box-shadow: 10px 10px 15px #cbc8c8;
+    }
+
+    div.name {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 88px;
+        width: 286px;
+        margin-left: 80px;
+    }
+
+    div.name h2 {
+        font-size: 4rem;
+        margin-left: -22px;
+    }
+
+    div.name img {
+        width: 12rem;
+    }
+
+    span.spin2 {
+        margin-top: -148px;
+        font-size: 40px;
+    }
+
+    section#About h1 {
+        font-size: 5.6rem;
+        text-align: center;
+        width: 1116px;
+        height: 72px;
+        position: absolute;
+        top: 59px;
+    }
+
+    hr {
+        width: 1026px;
+        margin-left: 159px;
+    }
+
+    section#Projects div.work {
+        width: 303vw;
+        /* background-color: green; */
+        height: 203vh;
+        display: grid;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 1.5rem;
+        box-shadow: 12px 12px 15px #cbc8c8;
+        grid-template-rows: 550px 550px;
+        grid-template-columns: 528px 650px;
+    }
+
     section#Contact {
         height: 397px;
         width: 1349px;
@@ -599,5 +715,112 @@ div.abbr img {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    section#Projects div.card {
+        width: 102vw;
+        margin-left: 124px;
+        margin-right: 127px;
+        margin-bottom: 127px;
+        margin-top: 258px;
+        height: 79vh;
+        border: 2px solid rgb(237 237 237);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 0.7rem;
+        cursor: pointer;
+        box-shadow: -10px -10px 15px #cbc8c8;
+    }
+
+    section#Projects div.card p {
+        font-family: 'Roboto', sans-serif;
+        border-radius: 22px;
+        width: 206px;
+        height: 40px;
+        text-align: center;
+        padding-top: 15px;
+        font-size: large;
+        border: 2px solid black;
+        background: rgb(53, 53, 53);
+        color: white;
+    }
+
+    section#Projects div.card img {
+        width: 18rem;
+        border-radius: 3rem;
+    }
+
+    div.edu1 {
+        border: 0.1rem solid black;
+        border-color: rgb(163, 163, 163);
+        width: 432px;
+        height: 200px;
+        border-radius: 2rem;
+        text-align: center;
+        padding: 1.5rem;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    div.edu11 {
+        position: absolute;
+        border: 0.1rem solid black;
+        border-color: rgb(163, 163, 163);
+        width: 432px;
+        height: 200px;
+        border-radius: 2rem;
+        text-align: center;
+        padding: 1.5rem;
+        cursor: pointer;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+
+    div.edu2 {
+        border: 0.1rem solid black;
+        border-color: rgb(163, 163, 163);
+        width: 432px;
+        height: 200px;
+        border-radius: 2rem;
+        text-align: center;
+        padding: 1.5rem;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    div.edu12 {
+        position: absolute;
+        border: 0.1rem solid black;
+        border-color: rgb(163, 163, 163);
+        width: 432px;
+        height: 200px;
+        border-radius: 2rem;
+        padding: 1.5rem;
+        cursor: pointer;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+    img.imgs1 {
+        width: 9rem !important ; 
+        height: 9rem !important ;
+    }
+    img.imgs2 {
+        width: 9rem !important;
+        height: 9rem !important;
+    }
+    div.text-info2 p {
+        width: 1008px;
+        margin-top: 22px;
+        color: rgb(85, 85, 85);
+        font-size: large;
+    }
+    section#About h2{
+        font-size: 45px;
+
     }
 }
